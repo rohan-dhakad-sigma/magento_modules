@@ -1,0 +1,21 @@
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+       <columns name="design_config_columns">
+           <column name="theme_theme_id">
+               <argument name="data" xsi:type="array">
+                   <item name="config" xsi:type="array">
+                       <item name="label" xsi:type="string" translate="true">New theme</item>
+                   </item>
+               </argument>
+           </column>
+
+           <column name="theme_theme_id1" component="Magento_Ui/js/grid/columns/select" sortOrder="40">
+<settings>
+<options class="Magento\Framework\View\Design\Theme\Label"/>
+<filter>select</filter>
+<dataType>select</dataType>
+<label translate="true">Rohan</label>
+</settings>
+</column>
+
+       </columns>
+</listing>

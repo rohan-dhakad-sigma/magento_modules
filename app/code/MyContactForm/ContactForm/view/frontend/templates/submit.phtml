@@ -1,0 +1,6 @@
+<h1>User Data</h1>
+<?php $name = $this->getRequest()->getParam('name');
+$email = $this->getRequest()->getParam('email');
+$phone = $this->getRequest()->getParam('telephone');
+echo "<h3>Name = $name<br> Email = $email <br> Phone = $phone</h3>";
+?>
